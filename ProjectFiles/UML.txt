@@ -1,0 +1,34 @@
+classDiagram
+    class Owner {
+        +String name
+        +Pet pet
+        +addPet(Pet pet)
+        +getSchedule()
+    }
+
+    class Pet {
+        +String name
+        +String species
+        +getDescription()
+    }
+
+    class Task {
+        +String title
+        +int duration
+        +int priority
+        +getDetails()
+    }
+
+    class Schedule {
+        +String dayOfWeek
+        +String timeOfDay
+        +List~Task~ tasks
+        +addTask(Task task)
+        +removeTask(Task task)
+        +getTasks()
+    }
+
+    Owner "1" --> "1" Pet : has
+    Owner "1" --> "1" Schedule : owns
+    Schedule "1" --> "*" Task : contains
+    Task "*" --> "1" Pet : for

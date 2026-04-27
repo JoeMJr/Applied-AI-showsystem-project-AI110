@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-04-27T00:48:34.755514",
+  "owner": "Pet Owner",
+  "owner_profile": {
+    "work_schedule": "9-5",
+    "available_time_windows": [
+      "06:00-07:00",
+      "12:00-13:00",
+      "17:00-19:00"
+    ],
+    "total_daily_minutes": 180
+  },
+  "pets": [
+    {
+      "name": "Buddy",
+      "species": "dog",
+      "task_count": 8
+    }
+  ],
+  "weekly_schedule": {
+    "Monday": [],
+    "Tuesday": [],
+    "Wednesday": [],
+    "Thursday": [],
+    "Friday": [],
+    "Saturday": [],
+    "Sunday": [
+      {
+        "time": "06:00",
+        "title": "Morning walk",
+        "pet": "Buddy",
+        "duration_minutes": 30,
+        "priority": "high",
+        "frequency": "daily"
+      },
+      {
+        "time": "06:00",
+        "title": "Dinner feeding",
+        "pet": "Buddy",
+        "duration_minutes": 10,
+        "priority": "high",
+        "frequency": "daily"
+      },
+      {
+        "time": "12:00",
+        "title": "Morning feeding",
+        "pet": "Buddy",
+        "duration_minutes": 10,
+        "priority": "high",
+        "frequency": "daily"
+      },
+      {
+        "time": "17:00",
+        "title": "Evening walk",
+        "pet": "Buddy",
+        "duration_minutes": 30,
+        "priority": "high",
+        "frequency": "daily"
+      },
+      {
+        "time": "12:00",
+        "title": "Midday enrichment",
+        "pet": "Buddy",
+        "duration_minutes": 20,
+        "priority": "medium",
+        "frequency": "daily"
+      },
+      {
+        "time": "17:00",
+        "title": "Play/training",
+        "pet": "Buddy",
+        "duration_minutes": 25,
+        "priority": "medium",
+        "frequency": "daily"
+      }
+    ]
+  }
+}
